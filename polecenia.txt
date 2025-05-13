@@ -1,0 +1,12 @@
+# a. zbudowanie obrazu
+sudo docker build -t pogoda .
+
+# b. uruchomienie kontenera
+sudo docker run -d -p 80:80 --name web-pogoda pogoda
+
+# c. 
+
+
+# d.
+sudo docker inspect pogoda -f '{{ .Size }}'
+
